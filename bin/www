@@ -1,0 +1,159 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+var app = require('../app');
+var debug = require('debug')('server:server');
+var http = require('http');
+var https = require('https');
+var fs = require('fs');
+
+/**
+ * Get port from environment and store in Express.
+ */
+
+// const bot = require('../routes/viber_bot');
+
+// var port = normalizePort(process.env.PORT || '3001');
+var portHttp = normalizePort(process.env.PORT || '80');
+// var portS = normalizePort(process.env.PORT || '3002');
+var portHttps = normalizePort(process.env.PORT || '443');
+var port8080 = normalizePort(process.env.PORT || '8080');
+// app.set('port', port);
+
+const Path = require('path');
+// const { Http } = require('winston/lib/winston/transports');
+let sslPath = Path.join('/etc/letsencrypt/live', 'longway34.ru');
+let keyFn = Path.resolve(sslPath, 'privkey.pem');
+let certFn = Path.resolve(sslPath, 'fullchain.pem');
+
+var httpsOptions = {
+  key: fs.readFileSync(keyFn, 'utf-8'),
+  cert: fs.readFileSync(certFn, 'utf-8'),
+  requestCert: true,
+  rejectUnauthorized: false,
+  servername: 'longway34.ru'
+}
+
+/**
+ * Create HTTP server.
+ */
+
+var serverHttp = http.createServer(app);
+//var server3001 = http.createServer(app);
+//var server3002 = https.createServer(httpsOptions, app);
+var serverHttps = https.createServer(httpsOptions, app);
+// var server8080 = https.createServer(httpsOptions, app);
+
+/**
+ * Listen on provided port, on all network interfaces.
+ */
+
+
+// server8080.listen(port8080, () => { console.log(`server http listering on port ${port8080}`) });
+// server8080.on('error', onError);
+// server8080.on('listening', onListening8080);
+
+serverHttps.listen(portHttps,()=>{
+  // let url = 'https://longway34.ru/viber';
+  console.log(`server https listering on port ${portHttps}`);
+  // bot.setWebhook(url).then((res)=>{
+  //   console.log(`viber bot webhook ok... Listen on ${url}...`);
+  // }).catch(err => console.log('Error', err));
+})
+serverHttps.on('error', onError);
+serverHttps.on('listening', onListeningS);
+
+// http.createServer((req, res)=>{
+//   res.writeHead(301, { "Location": "https://" + req.headers['host'].replace(portHttp, portHttps) + req.url });
+//   res.end();
+
+// }).listen(portHttp, ()=>{
+//   console.log(`server http listering on port ${portHttp}`);
+// });
+
+
+serverHttp.listen(portHttp, () => { console.log(`server http listering on port ${portHttp}`)});
+serverHttp.on('error', onError);
+serverHttp.on('listening', onListening);
+
+
+/**
+ * Normalize a port into a number, string, or false.
+ */
+
+function normalizePort(val) {
+  var port = parseInt(val, 10);
+
+  if (isNaN(port)) {
+    // named pipe
+    return val;
+  }
+
+  if (port >= 0) {
+    // port number
+    return port;
+  }
+
+  return false;
+}
+
+/**
+ * Event listener for HTTP server "error" event.
+ */
+
+function onError(error) {
+  if (error.syscall !== 'listen') {
+    throw error;
+  }
+
+  var bind = typeof port === 'string'
+    ? 'Pipe ' + port
+    : 'Port ' + port;
+
+  // handle specific listen errors with friendly messages
+  switch (error.code) {
+    case 'EACCES':
+      console.error(bind + ' requires elevated privileges');
+      process.exit(1);
+      break;
+    case 'EADDRINUSE':
+      console.error(bind + ' is already in use');
+      process.exit(1);
+      break;
+    default:
+      throw error;
+  }
+}
+
+/**
+ * Event listener for HTTP server "listening" event.
+ */
+
+
+
+function onListening() {
+  var addr = serverHttp.address();
+  var bind = typeof addr === 'string'
+    ? 'pipe ' + addr
+    : 'port ' + addr.port;
+  debug('Listening on ' + bind);
+}
+
+function onListeningS() {
+  var addr = serverHttps.address();
+  var bind = typeof addr === 'string'
+    ? 'pipe ' + addr
+    : 'port ' + addr.port;
+  debug('Listening on ' + bind);
+}
+
+// function onListening8080() {
+//   var addr = server8080.address();
+//   var bind = typeof addr === 'string'
+//     ? 'pipe ' + addr
+//     : 'port ' + addr.port;
+//   debug('Listening on ' + bind);
+// }
