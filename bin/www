@@ -24,7 +24,6 @@ var port8080 = normalizePort(process.env.PORT || '8080');
 // app.set('port', port);
 
 const Path = require('path');
-// const { Http } = require('winston/lib/winston/transports');
 let sslPath = Path.join('/etc/letsencrypt/live', 'longway34.ru');
 let keyFn = Path.resolve(sslPath, 'privkey.pem');
 let certFn = Path.resolve(sslPath, 'fullchain.pem');
