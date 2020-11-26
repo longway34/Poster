@@ -26,7 +26,14 @@ router.get('/', function(req, res, next) {
   //     }
   //   });
   //   res.end();
-    res.render('index', { title: 'Express' });
+    if (req.secure) {
+            // request was via https, so do no special handling
+            // next();
+            res.render('index', { title: 'Express' });
+    } else {
+            // request was via http, so redirect to https
+            res.redirect('https://' + req.headers.host + req.url);
+    }
   // } else {
   //   // res.render('login', { title: 'Представьтесь пожалуйста' })
   // }

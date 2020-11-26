@@ -1,17 +1,24 @@
 const axios = require('axios');
 const mysql = require('mysql2');
-const util = require('util');
 const Path = require('path');
 const fs = require('fs');
 const { count } = require('console');
 const { response } = require('express');
+var child_process = require('child_process');
 
 const connectProperty = {
 	host: "localhost",
 	user: "root",
 	database: "poster-pkl",
-	password: "qwerty.123",
+	password: "qwerty",
 	multipleStatements: true
+}
+
+const conTestProperty = {
+	host: 'localhost',
+	user: 'root',
+	password: 'qwerty',
+	database: 'mysql'
 }
 
 const PosterConnectProperties = {
@@ -20,9 +27,40 @@ const PosterConnectProperties = {
 }
 
 class PosterDB {
+	async initConnect(){
+		let tConn = mysql.createConnection(conTestProperty);
+		let res = await this.SyncSelectQuery("show databases like 'poster-pkl'", [], tConn);
+		tConn.end();
+		let out, count=0;
+		if(res.length <= 0){
+			do{
+				out = child_process.execSync('pwd');
+				let fn = __dirname+'/poster-pkl-create.sql';
+				// let execStr = `mysql --user=root --password=qwerty mysql < ${fn}`;
+				let buff = fs.readFileSync(fn);
+				let execStr = `mysql --user=root --password=qwerty mysql`;
+				out = child_process.execSync(execStr,{input: buff});
+				count++;
+				if(!out.error) {
+					console.log('DB create Ok...');
+					this.conn = mysql.createPool(connectProperty);
+					return;
+				}
+				console.log(out.stdout);
+			} while(count <2)
+		} else {
+			this.conn = mysql.createPool(connectProperty);
+			return;
+		} 
+
+		if(out){
+			console.log('Error DB init...')
+			return null;
+		}
+	}
 	constructor(){
-		// this.conn = mysql.createConnection(connectProperty);
-		this.conn = mysql.createPool(connectProperty);
+		this.initConnect();
+		// console.log(this.conn);
 	}
 	connection(){
 		return this.conn;
@@ -32,10 +70,13 @@ class PosterDB {
 		return Math.round(Math.random() * 10000000);
 	}
 
-	SyncSelectQuery(query, args){
+	SyncSelectQuery(query, args, conn=null){
+		if(!conn){
+			conn=this.conn;
+		}
 		try{
 			return new Promise((resolve, reject)=>{
-				this.conn.query(query, args, (err, result) => {
+				conn.query(query, args, (err, result) => {
 					if (err) {
 						console.log(err);
 						reject(err);
@@ -84,7 +125,7 @@ class PosterDB {
 								if(Math.abs(oldLimit - limit) > 1e-3 || Math.abs(oldCost - cost) > 1e-3){
 									let params = [limit, cost, uid];
 
-									console.debug(`update limits in ${uid} product...`, params);
+									// console.debug(`update limits in ${uid} product...`, params);
 
 									let sql = "update ingredients set poster_limit=?, poster_cost=? where id=?";
 
@@ -136,14 +177,14 @@ class PosterDB {
 						find = true;
 						posterStorage.sql_id = sqlStorage.id;
 						posterStorage.poster_id = id;
-						console.log(`Find storages with id=${id}...`);
+						// console.log(`Find storages with id=${id}...`);
 						break;
 					}
 				}
 				if (!find) {
 					let sqlResult = await this.SyncSelectQuery("insert into storages (poster_id) values (?)", [id]);
 					isComplite = false;
-					console.log(`Add new storage with id=${id}...`);
+					// console.log(`Add new storage with id=${id}...`);
 				}
 			}
 		} while(!isComplite)
@@ -170,7 +211,7 @@ class PosterDB {
 		const storageStr = storage_id < 1 ? "" : `&storage_id=${storage_id}`;
 		const urlLeft = 
 			`${PosterConnectProperties.host}storage.getStorageLeftovers?token=${PosterConnectProperties.token}${storageStr}&zero_leftovers=true`;
-		console.log('url', urlLeft);
+		// console.log('url', urlLeft);
 		let responseLeft = await axios.get(urlLeft);
 		let leftoversRows = Object.assign({}, responseLeft.data.response);
 
@@ -234,12 +275,12 @@ class PosterDB {
 		}
 
 		let url = `${PosterConnectProperties.host}menu.getCategories?token=${PosterConnectProperties.token}`;
-		console.log('url', url);
+		// console.log('url', url);
 		let response = await axios.get(url);
 		let categories = Object.assign({}, response.data.response);
 
 		url = `${PosterConnectProperties.host}menu.getProducts?token=${PosterConnectProperties.token}`;
-		console.log('url', url);
+		// console.log('url', url);
 		response = await axios.get(url);
 		let poster_products = Object.assign({}, response.data.response);
 
@@ -306,12 +347,12 @@ class PosterDB {
 		}
 
 		url = `${PosterConnectProperties.host}menu.getCategoriesIngredients?token=${PosterConnectProperties.token}`;
-		console.log('url', url);
+		// console.log('url', url);
 		response = await axios.get(url);
 		categories = Object.assign({}, response.data.response);
 
 		url = `${PosterConnectProperties.host}menu.getIngredients?token=${PosterConnectProperties.token}`;
-		console.log('url', url);
+		// console.log('url', url);
 		response = await axios.get(url);
 		let ingredients = Object.assign({}, response.data.response);
 
@@ -352,14 +393,14 @@ class PosterDB {
 						posterSupplier.address_delivery_info = sqlSupplier.address_delivery_info;
 						posterSupplier.type_delivery_info = sqlSupplier.type_delivery_info;
 
-						console.log(`Find supplier with id=${id}...`);
+						// console.log(`Find supplier with id=${id}...`);
 						break;
 					}
 				}
 				if (!find) {
 					let sqlResult = await this.SyncSelectQuery("insert into suppliers (poster_id) values (?)", [id]);
 					isComplite = false;
-					console.log(`Add new supplier with id=${id}...`);
+					// console.log(`Add new supplier with id=${id}...`);
 				}
 			}
 		} while (!isComplite)
@@ -1267,13 +1308,13 @@ class PosterDB {
 							let ires = await this.SyncSelectQuery('insert into poster_supply_ingredients \
 								(supply_id, ingredient_id, poster_ingredient_id, amount, cost) values (?, ?, ?, ?, ?)', ipr);
 							if(ires.affectedRows > 0){
-								console.log(`ok ${ingredient.ingredient_name}`);
+								// console.log(`ok ${ingredient.ingredient_name}`);
 							}
 						}
 					}
 					// continue;
 				} else {
-					console.log("to do probe update supply ...");
+					// console.log("to do probe update supply ...");
 					let spr = [supply.supply_id];
 					let sres = await this.SyncSelectQuery('select * from poster_supplies where id=?',[spr]);
 					if(sres.length !== 1){

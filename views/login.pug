@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	.container
+		form.form-signin(action="/login", method="post")
+			if message
+				p= message
+			h1.h4.mb-3.font-weight-normal= title
+			//- h2.form-signin-heading Please sign in
+			//- p= 'Имя пользователя'
+			input.form-control(type="text", name="username", placeholder="Ваше имя входа", id="username")
+			//- p= 'Пароль'
+			input.form-control(type="password", name="password", placeholder="Пароль")
+			p
+			button.btn.btn-lg.btn-primary.btn-block(type="submit") Войти

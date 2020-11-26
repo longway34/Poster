@@ -1,0 +1,69 @@
+<table class="dateHead">
+		tr
+			td.logo(style="padding-left: 30px;")
+				if !image || image.length <= 0
+					img(src=img, alt=alt, width="50px" )
+				else
+					img(src=src, alt=alt, width="50px" )
+					//- img(src=img, alt=alt, width="50px" )
+			td.date
+				<p class="rightAlignHeadDate"><strong>от:&nbsp;</strong>
+				<span class="withButtomLine"><em>&quot;#{day}&quot;&nbsp;#{month}&nbsp;#{year}г.</em></span>
+</table>
+<p class="centerAlignHeader"><strong>НАКЛАДНАЯ №</strong><em class="withButtomLine" >#{num}</em></p>
+<p>&nbsp;</p>
+<table class="rigthFrom">
+	<tbody class="valign">
+<tr><td><p class="rigthFrom"><b>От кого:</b></p></td><td><span class="withButtomLine"><strong>#{supplier.name}</strong><em>&quot;#{supplier.src.supplier_adress}; т.#{supplier.src.supplier_phone}&quot;</em></td></tr>
+<tr><td><p class="rigthFrom"><b>Кому:</b></p></td><td><span class="withButtomLine"><strong>#{firm.response.company_name} - #{storage.name}</strong><em>&quot;#{storage.src.storage_adress}&quot;</em></td></tr>
+	</tbody>
+</table>
+
+- var count = 0; 
+- var summAll = 0; 
+- var countAll = 0;
+table
+	tbody
+	tr
+		<th class="products number">№ п/п</th>
+		<th class="products name">Наименование</th>
+		<th class="products unit">Ед.изм</th>
+		<th class="products unit">Кол-во</th>
+		<th class="products data">Цена(руб.)</th>
+		<th class="products data">Сумма(руб.)</th>
+	- var ing_values = supplier.ingredients ? Object.values(supplier.ingredients) : [];
+	each ingredient in ing_values
+		- var cost_str = parseFloat(ingredient.cost) < 0 ? '' : parseFloat(ingredient.cost).toFixed(2);
+		- var cost_val = parseFloat(ingredient.cost) < 0 ? 0 : parseFloat(ingredient.cost);
+		- var summ_str = parseFloat(ingredient.summ) < 0 ? '' : parseFloat(ingredient.summ).toFixed(2);
+		- var summ_val = parseFloat(ingredient.summ) < 0 ? 0 : parseFloat(ingredient.summ);
+		tr
+		<td class="products number">#{count+1}.</td>
+		<td class="products name">#{ingredient.name}</td>
+		<td class="products dataE">#{ingredient.unit}</td>
+		<td class="products data">#{ingredient.amount}</td>
+		<td class="products data">#{cost_str}</td>
+		<td class="products data">#{summ_str}</td>
+		- summAll = summAll + summ_val;
+		- count++;
+	tr
+		<td colspan="2" class="All data">ИТОГО:</td>
+		<td colspan="2" class="All data">#{count}</td>
+		<td colspan="2" class="All data">#{summAll}</td>
+table.signets(style="margin-top:30px;")
+	tbody
+		tr
+			td.si(style="width: 10%;") Сдал:
+			td.sign(style="text-align: right;") / 
+			td.sign(style="text-align: right;") / 
+			td.si(style="width: 10%; padding-left: 15px") Принял:
+			td.sign(style="text-align: right;") / 
+			td.sign(style="text-align: right;") / 
+		tr
+			td
+			td.up <sup>подпись</sup>
+			td.up <sup>Ф.И.О.</sup>
+			td
+			td.up <sup>подпись</sup>
+			td.up <sup>Ф.И.О.</sup>
+p(style="border-bottom: 1px solid; width: 100%") &nbsp;

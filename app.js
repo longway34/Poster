@@ -17,8 +17,9 @@ var suppliersRouter = require('./routes/suppliers');
 var settingsRouter = require('./routes/settings');
 var shablonsRouter = require('./routes/shablons');
 // var viberRouter = require('./routes/viber');
-// var myAdminRoute = require('./routes/phpMyAdmin');
+var myAdminRoute = require('./routes/phpmyadmin');
 // const { use } = require('passport');
+// global.PosterDB = require('./public/javascripts/DB');
 
 var app = express();
 
@@ -35,6 +36,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
 
 
 // var bodyParser = require('body-parser');
@@ -56,7 +58,10 @@ app.all('*', function (req, res, next) {
   }
 });
 
+app.use(express.static('public'));
+
 app.use('/', indexRouter);
+app.use('/phpmyadmin', myAdminRoute);
 // app.use('/login', loginRouter);
 app.use('/users', usersRouter);
 

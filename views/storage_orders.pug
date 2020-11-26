@@ -1,0 +1,29 @@
+// - doctype <!DOCTYPE html>
+html(lang="en")
+- var now = new Date()
+- var day = now.getDate();
+- var month = ['Января','Февраля','Марта','Апреля','Мая','Июня','Июля','Августа','Сентября','Октября','Ноября','Декабря'][now.getMonth()];
+- var year  = now.getFullYear();
+
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title Document
+	body
+		style
+			include orders.css
+		- var st_values = storages ? Object.values(storages) : [];
+		- var shablon_id = shablon ? shablon.id : -1;
+		each storage in st_values
+			//- p #{storage.name}
+			//- p #{firm.response.company_name}
+			- var sup_values = storage.suppliers ? Object.values(storage.suppliers) : [];			
+			each supplier in sup_values
+				- var num = supplier.number ? supplier.number: (Math.random()*1000).toFixed(0);
+				- num = storage.id+"/"+supplier.id+"-"+num;
+				- var img = firm.firmLogoUrl;
+				- var alt = firm.response.company_name;
+				- var src = image ? `data:image/png;base64,${image}` : '';
+				div(class="markBeginOrder" shablon=shablon_id supplier=supplier.id storage=storage.id, number=num)
+					include order_table.pug
+					
