@@ -4,6 +4,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', async (req, res, next) => {
+	console.debug('Get leftovers...');
 	let PosterDB = require('../public/javascripts/DB');
 
 	let storage = req.query.storage_id ? parseInt(req.query.storage_id) : -1;
@@ -16,6 +17,7 @@ router.get('/', async (req, res, next) => {
 	res.status(200).type('json');
 	res.setHeader('Access-Control-Allow-Origin', '*');
 	res.send(leftovers);
+	console.debug('Get leftovers... send Ok...');
 });
 
 

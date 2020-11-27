@@ -1,0 +1,104 @@
+	body {
+		width: 800px;
+	}
+
+	.rightAlignHeadDate {
+		font-size: 16px;
+		text-align: right;
+	}
+
+	.centerAlignHeader {
+		font-size: 16px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.rigthFrom {
+		font-size: 14px;
+		text-align: left;
+		padding-left: 20px;
+		/* width: 100%; */
+		/* margin: 15px; */
+	}
+
+	th.products {
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+		border-left: 1px solid;
+	}
+
+	td.products {
+		border-bottom: 1px solid;
+		border-left: 1px solid;
+	}
+
+	td.number {
+		width: 5%;
+		text-align: right;
+		padding-right: 5px;
+	}
+
+	.name {
+		width: 60%;
+		text-align: left;
+		padding-left: 5px;
+	}
+	.data {
+		text-align: right;
+	}
+
+	.unit {
+		text-align: center;
+	}
+
+	table.products {
+		width: 100%;
+	}
+
+	.All {
+		border-bottom: 1px solid;
+		border-left: 1px solid;
+		font-weight: bold;
+		padding-right: 5px;
+	}
+
+	table.signets,
+	table.signets+tr+td {
+		width: 100%;
+	}
+
+	.up {
+		text-align: center;
+		/* font-size: 10px; */
+	}
+
+	.sign {
+		border-bottom: 1px solid;
+	}
+	sup {
+ 		height: 10px; 
+		padding: 0px; 
+		margin: 0px; 
+ 		vertical-align: "top";
+		font-size: 8px;
+	}
+	.logo{
+		width: 50px;
+	}
+	.dateHead{
+		width: 100%;
+	}
+	.date{
+		text-align: right;
+	}
+.withButtomLine{
+	text-decoration: underline;
+	padding-left: 10px;
+}
+.withButtomLine > em{
+	padding-left: 10px;
+}
+.valign {
+	vertical-align: top;
+}
+

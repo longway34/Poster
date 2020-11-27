@@ -10,6 +10,7 @@ const { getMaxListeners } = require('process');
 
 /* GET home page. */
 router.get('/', async (req, res, next) => {
+	console.debug('Get storages...');
 	let PosterDB = require('../public/javascripts/DB');
 
 	let storage = req.query.storage_id ? parseInt(req.query.storage_id) : -1;
@@ -18,6 +19,7 @@ router.get('/', async (req, res, next) => {
 	res.status(200).type('json');
 	res.setHeader('Access-Control-Allow-Origin', '*');
 	res.send(result);
+	console.debug('Send storages... Ok...');
 
 	PosterDB.releace();
 })

@@ -63,6 +63,7 @@ const getShablonOrdersData = async (storage, shablon, supplier, leftovers=null) 
 
 
 router.get("/", async(req, res, next) =>{
+	console.debug('Get shablons...');
 	let PosterDB = require('../public/javascripts/DB');
 
 	let storage = req.query.storage_id ? parseInt(req.query.storage_id) : -1;
@@ -71,7 +72,7 @@ router.get("/", async(req, res, next) =>{
 	res.status(200).type('json');
 	res.setHeader('Access-Control-Allow-Origin', '*');
 	res.send(result);
-
+	console.debug('Send shablons... Ok...');
 })
 
 router.post('/update_ingredients', async (req, res, next) => {
@@ -132,12 +133,12 @@ router.post("/update", async(req, res, next) => {
 
 	let data;
 	try{
-		data = JSON.parse(JSON.stringify(req.body));
+		data = JSON.parse(req.body);
 	} catch (err){
 		try {
-			data = JSON.parse(req.body);
-		} catch (err) {
 			data = JSON.parse(Object.keys(req.body)[0]);
+		} catch (err) {
+			data = JSON.parse(JSON.stringify(req.body));
 		}
 	}
 

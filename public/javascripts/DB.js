@@ -616,7 +616,7 @@ class PosterDB {
 				await this.SyncSelectQuery("select * from for_storage_defaults where \
 					poster_storage_id=? and poster_ingredient_id=?", [element.poster_id, poster_ingredient_id]);
 							count++
-							console.log(`${count} Finded... ${ingredient.name} in struct...`);
+							// console.log(`${count} Finded... ${ingredient.name} in struct...`);
 							if(sqlLeftovers.length > 0){
 								let sqlIngredient = sqlLeftovers[0];
 
@@ -654,7 +654,7 @@ class PosterDB {
 						}
 					}
 				}
-			console.log("Ok");
+			// console.log("Ok");
 			return struct;
 		} catch(err){
 			console.log(err);

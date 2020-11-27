@@ -5,6 +5,7 @@ var router = express.Router();
 // router.use(bodyParser.json());
 /* GET home page. */
 router.get('/', async (req, res, next) => {
+	console.debug('Get suppliers...');
 	let PosterDB = require('../public/javascripts/DB');
 
 	let supplier = req.query.supplier_id ? parseInt(req.query.supplier_id) : -1;
@@ -13,6 +14,7 @@ router.get('/', async (req, res, next) => {
 	res.status(200).type('json');
 	res.setHeader('Access-Control-Allow-Origin', '*');
 	res.send(result);
+	console.debug('Send supplers... Ok...');
 })
 
 //router.post('/update', express.json({ type: '*/*' }), async (req, res, next) => {

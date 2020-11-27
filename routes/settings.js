@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', async (req, res, next) => {
+	console.debug('Get settings...');
 	let PosterDB = require('../public/javascripts/DB');
 
 	const firmInfo = await PosterDB.getInitInfo();
@@ -10,6 +11,7 @@ router.get('/', async (req, res, next) => {
 
 	res.send(firmInfo);
 	PosterDB.releace();
+	console.debug('send settings... Ok...');
 })
 
 module.exports = router;

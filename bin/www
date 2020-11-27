@@ -62,7 +62,7 @@ serverHttps.listen(portHttps,()=>{
   //   console.log(`viber bot webhook ok... Listen on ${url}...`);
   // }).catch(err => console.log('Error', err));
 })
-serverHttps.on('error', onError);
+serverHttps.on('error', onErrorS);
 serverHttps.on('listening', onListeningS);
 
 // http.createServer((req, res)=>{
@@ -103,14 +103,39 @@ function normalizePort(val) {
  * Event listener for HTTP server "error" event.
  */
 
+
 function onError(error) {
   if (error.syscall !== 'listen') {
     throw error;
   }
 
-  var bind = typeof port === 'string'
-    ? 'Pipe ' + port
-    : 'Port ' + port;
+  var bind = typeof portHttp === 'string'
+    ? 'Pipe ' + portHttp
+    : 'Port ' + portHttp;
+
+  // handle specific listen errors with friendly messages
+  switch (error.code) {
+    case 'EACCES':
+      console.error(bind + ' requires elevated privileges');
+      process.exit(1);
+      break;
+    case 'EADDRINUSE':
+      console.error(bind + ' is already in use');
+      process.exit(1);
+      break;
+    default:
+      throw error;
+  }
+}
+
+function onErrorS(error) {
+  if (error.syscall !== 'listen') {
+    throw error;
+  }
+
+  var bind = typeof portHttps === 'string'
+    ? 'Pipe ' + portHttps
+    : 'Port ' + portHttps;
 
   // handle specific listen errors with friendly messages
   switch (error.code) {

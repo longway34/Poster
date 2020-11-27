@@ -1,0 +1,355 @@
+{
+	"8963219": {
+		"id": 8963219,
+		"type": "productsCategory",
+		"poster_id": 1,
+		"name": "Кофе",
+		"src": {
+			"category_id": "1",
+			"category_name": "Кофе",
+			"category_photo": "/upload/pos_cdb_7631/menu/category_1464608557_1.jpg",
+			"category_photo_origin": "/upload/pos_cdb_7631/menu/category_1464608557_1_original.jpg",
+			"parent_category": "0",
+			"category_color": "red",
+			"category_hidden": "0",
+			"sort_order": "999",
+			"fiscal": "0",
+			"nodiscount": "0",
+			"tax_id": "0",
+			"left": "1",
+			"right": "6",
+			"level": "1",
+			"category_tag": null,
+			"visible": [
+				{
+					"spot_id": 1,
+					"visible": 1
+				}
+			]
+		},
+		"childs": {
+			"2698515": {
+				"id": 2698515,
+				"type": "productsCategory",
+				"poster_id": 4,
+				"name": "Индийский кофе",
+				"src": {
+					"category_id": "4",
+					"category_name": "Индийский кофе",
+					"category_photo": null,
+					"category_photo_origin": null,
+					"parent_category": "1",
+					"category_color": "white",
+					"category_hidden": "0",
+					"sort_order": "999",
+					"fiscal": "0",
+					"nodiscount": "0",
+					"tax_id": "0",
+					"left": "2",
+					"right": "3",
+					"level": "2",
+					"category_tag": null,
+					"visible": [
+						{
+							"spot_id": 1,
+							"visible": 1
+						}
+					]
+				},
+				"childs": {
+					"8301288": {
+						"id": 8301288,
+						"type": "product",
+						"poster_id": 19,
+						"name": "Кофе индийский растворимый",
+						"src": {
+							"barcode": "",
+							"category_name": "Индийский кофе",
+							"unit": "",
+							"cost": "10000",
+							"cost_netto": "10000",
+							"fiscal": "0",
+							"hidden": "0",
+							"menu_category_id": "4",
+							"workshop": "0",
+							"nodiscount": "0",
+							"photo": null,
+							"photo_origin": null,
+							"price": {
+								"1": "11000"
+							},
+							"product_code": "",
+							"product_id": "7",
+							"product_name": "Кофе индийский растворимый",
+							"profit": {
+								"1": "1000"
+							},
+							"sort_order": "999",
+							"tax_id": "0",
+							"product_tax_id": "0",
+							"type": "3",
+							"weight_flag": "0",
+							"color": "white",
+							"spots": [
+								{
+									"spot_id": "1",
+									"price": "11000",
+									"profit": "1000",
+									"profit_netto": "1000",
+									"visible": "1"
+								}
+							],
+							"ingredient_id": "19",
+							"different_spots_prices": "0",
+							"out": 0
+						},
+						"childs": {},
+						"leftover": 0,
+						"srcLeftover": {
+							"ingredient_id": "19",
+							"ingredient_name": "Кофе индийский растворимый",
+							"ingredient_left": "0.0000000",
+							"limit_value": "0",
+							"ingredient_unit": "p",
+							"ingredients_type": "2",
+							"storage_ingredient_left": "0.0000000",
+							"storage_ingredient_sum": "0",
+							"storage_ingredient_sum_netto": "0",
+							"prime_cost": "0",
+							"prime_cost_netto": "0",
+							"hidden": "0"
+						}
+					}
+				}
+			},
+			"7093374": {
+				"id": 7093374,
+				"type": "product",
+				"poster_id": 18,
+				"name": "Кофе нискафе",
+				"src": {
+					"barcode": "",
+					"category_name": "Кофе",
+					"unit": "",
+					"cost": "10000",
+					"cost_netto": "10000",
+					"fiscal": "0",
+					"hidden": "0",
+					"menu_category_id": "1",
+					"workshop": "0",
+					"nodiscount": "0",
+					"photo": null,
+					"photo_origin": null,
+					"price": {
+						"1": "11000"
+					},
+					"product_code": "",
+					"product_id": "6",
+					"product_name": "Кофе нискафе",
+					"profit": {
+						"1": "1000"
+					},
+					"sort_order": "999",
+					"tax_id": "0",
+					"product_tax_id": "0",
+					"type": "3",
+					"weight_flag": "0",
+					"color": "white",
+					"spots": [
+						{
+							"spot_id": "1",
+							"price": "11000",
+							"profit": "1000",
+							"profit_netto": "1000",
+							"visible": "1"
+						}
+					],
+					"ingredient_id": "18",
+					"different_spots_prices": "0",
+					"out": 0
+				},
+				"childs": {},
+				"leftover": 0,
+				"srcLeftover": {
+					"ingredient_id": "18",
+					"ingredient_name": "Кофе нискафе",
+					"ingredient_left": "0.0000000",
+					"limit_value": "0",
+					"ingredient_unit": "p",
+					"ingredients_type": "2",
+					"storage_ingredient_left": "0.0000000",
+					"storage_ingredient_sum": "0",
+					"storage_ingredient_sum_netto": "0",
+					"prime_cost": "0",
+					"prime_cost_netto": "0",
+					"hidden": "0"
+				}
+			},
+			"111": {
+				"id": 8127623,
+				"type": "productsCategory",
+				"poster_id": 5,
+				"name": "Кофе без продуктов",
+				"childs": {},
+				"src": {}
+			},
+			"8127623": {
+				"id": 8127623,
+				"type": "productsCategory",
+				"poster_id": 5,
+				"name": "Кофе арабика",
+				"src": {
+					"category_id": "5",
+					"category_name": "Кофе арабика",
+					"category_photo": null,
+					"category_photo_origin": null,
+					"parent_category": "1",
+					"category_color": "white",
+					"category_hidden": "0",
+					"sort_order": "999",
+					"fiscal": "0",
+					"nodiscount": "0",
+					"tax_id": "0",
+					"left": "4",
+					"right": "5",
+					"level": "2",
+					"category_tag": null,
+					"visible": [
+						{
+							"spot_id": 1,
+							"visible": 1
+						}
+					]
+				},
+				"childs": {
+					"1951452": {
+						"id": 1951452,
+						"type": "product",
+						"poster_id": 20,
+						"name": "Кофе арабика (зерна)",
+						"src": {
+							"barcode": "",
+							"category_name": "Кофе арабика",
+							"unit": "",
+							"cost": "10000",
+							"cost_netto": "10000",
+							"fiscal": "0",
+							"hidden": "0",
+							"menu_category_id": "5",
+							"workshop": "0",
+							"nodiscount": "0",
+							"photo": null,
+							"photo_origin": null,
+							"price": {
+								"1": "12000"
+							},
+							"product_code": "",
+							"product_id": "8",
+							"product_name": "Кофе арабика (зерна)",
+							"profit": {
+								"1": "2000"
+							},
+							"sort_order": "999",
+							"tax_id": "0",
+							"product_tax_id": "0",
+							"type": "3",
+							"weight_flag": "0",
+							"color": "white",
+							"spots": [
+								{
+									"spot_id": "1",
+									"price": "12000",
+									"profit": "2000",
+									"profit_netto": "2000",
+									"visible": "1"
+								}
+							],
+							"ingredient_id": "20",
+							"different_spots_prices": "0",
+							"out": 0
+						},
+						"childs": {},
+						"leftover": 0,
+						"srcLeftover": {
+							"ingredient_id": "20",
+							"ingredient_name": "Кофе арабика (зерна)",
+							"ingredient_left": "0.0000000",
+							"limit_value": "0",
+							"ingredient_unit": "p",
+							"ingredients_type": "2",
+							"storage_ingredient_left": "0.0000000",
+							"storage_ingredient_sum": "0",
+							"storage_ingredient_sum_netto": "0",
+							"prime_cost": "0",
+							"prime_cost_netto": "0",
+							"hidden": "0"
+						}
+					},
+					"9946453": {
+						"id": 9946453,
+						"type": "product",
+						"poster_id": 21,
+						"name": "Кофе арабика (молотый)",
+						"src": {
+							"barcode": "",
+							"category_name": "Кофе арабика",
+							"unit": "",
+							"cost": "20000",
+							"cost_netto": "20000",
+							"fiscal": "0",
+							"hidden": "0",
+							"menu_category_id": "5",
+							"workshop": "0",
+							"nodiscount": "0",
+							"photo": null,
+							"photo_origin": null,
+							"price": {
+								"1": "22000"
+							},
+							"product_code": "",
+							"product_id": "9",
+							"product_name": "Кофе арабика (молотый)",
+							"profit": {
+								"1": "2000"
+							},
+							"sort_order": "999",
+							"tax_id": "0",
+							"product_tax_id": "0",
+							"type": "3",
+							"weight_flag": "0",
+							"color": "white",
+							"spots": [
+								{
+									"spot_id": "1",
+									"price": "22000",
+									"profit": "2000",
+									"profit_netto": "2000",
+									"visible": "1"
+								}
+							],
+							"ingredient_id": "21",
+							"different_spots_prices": "0",
+							"out": 0
+						},
+						"childs": {},
+						"leftover": 0,
+						"srcLeftover": {
+							"ingredient_id": "21",
+							"ingredient_name": "Кофе арабика (молотый)",
+							"ingredient_left": "0.0000000",
+							"limit_value": "0",
+							"ingredient_unit": "p",
+							"ingredients_type": "2",
+							"storage_ingredient_left": "0.0000000",
+							"storage_ingredient_sum": "0",
+							"storage_ingredient_sum_netto": "0",
+							"prime_cost": "0",
+							"prime_cost_netto": "0",
+							"hidden": "0"
+						}
+					}
+				}
+			}
+		}
+	}
+}
