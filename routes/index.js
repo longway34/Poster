@@ -29,7 +29,16 @@ router.get('/', function(req, res, next) {
     if (req.secure) {
             // request was via https, so do no special handling
             // next();
-            res.render('index', { title: 'Express' });
+            if(req.url === '/'){
+              let dn = path.join(__dirname, '..', 'public/client');
+              let fn = `${dn}/index.html`;
+              res.sendFile(fn);
+            } else {
+              router.use(express.static('public'));
+              router.use(express.static('public/client'));
+            }
+
+//            res.render('index', { title: 'Express' });
     } else {
             // request was via http, so redirect to https
             res.redirect('https://' + req.headers.host + req.url);

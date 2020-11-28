@@ -8,7 +8,7 @@
   "dependencies": {
     "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.5",
-    "crypto": "^1.0.1",
+    "core-js": "^3.8.0",
     "debug": "~2.6.9",
     "email-templates": "^7.1.0",
     "exceljs": "^4.1.1",
@@ -16,12 +16,8 @@
     "express-mysql-session": "^2.1.4",
     "filereader": "^0.10.3",
     "http-errors": "~1.6.3",
-    "jade": "^1.9.2",
-    "memory": "0.0.3",
     "morgan": "^1.9.1",
     "mysql2": "^2.1.0",
-    "n-readline": "^0.1.1",
-    "nodaemon": "0.0.5",
     "node-base64-image": "^2.0.1",
     "pug": "^2.0.4"
   },

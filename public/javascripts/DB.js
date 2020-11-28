@@ -681,7 +681,8 @@ class PosterDB {
 		let firmInfo = await axios.get(url);
 		let info = firmInfo.data.response;
 
-		url = `https://${info.COMPANY_ID}.joinposter.com${info.logo}`;
+		let firmPosterUrl = `https://${info.COMPANY_ID}.joinposter.com`;
+		url = `${firmPosterUrl}${info.logo}`;
 		let imResult = await axios({
 			url,
 			method: 'GET',
@@ -698,6 +699,7 @@ class PosterDB {
 		imResult.data.pipe(writer)
 
 		firmInfo.data.firmLogoUrl = url;
+		firmInfo.data.firmPosterUrl = firmPosterUrl;
 		firmInfo.data.firmEmail = info.email;
 		// firmInfo.logoBin = image;
 
