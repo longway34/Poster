@@ -17,6 +17,7 @@ class App extends Component {
             <Routes />
           </StartUpContainer>
         </ConfirmProvider>
+        
       </React.Fragment>
     );
   }
