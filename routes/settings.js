@@ -2,7 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', async (req, res, next) => {
-	console.debug('Get settings...');
+	console.log('Get settings...');
+	console.log("__dirname"+__dirname);
 	let PosterDB = require('../public/javascripts/DB');
 
 	const firmInfo = await PosterDB.getInitInfo();
@@ -11,7 +12,7 @@ router.get('/', async (req, res, next) => {
 
 	res.send(firmInfo);
 	PosterDB.releace();
-	console.debug('send settings... Ok...');
+	console.log('send settings... Ok...');
 })
 
 module.exports = router;

@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg
+PUBLIC "-//W3C//DTD SVG 1.1//EN"
+       "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="23 -8 1225 1270" width="1202px" height="1278px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+   <line x1="310" y1="654" x2="300" y2="654" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="241" y1="623" x2="231" y2="623" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="300" y1="654" x2="241" y2="623" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="302.5" y1="654" x2="306.03553390593" y2="657.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="302.5" y1="654" x2="306.03553390593" y2="650.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="236" y1="623" x2="239.53553390593" y2="626.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="236" y1="623" x2="239.53553390593" y2="619.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="310" y1="674" x2="300" y2="674" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="240" y1="116" x2="230" y2="116" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="300" y1="674" x2="240" y2="116" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="302.5" y1="674" x2="306.03553390593" y2="677.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="302.5" y1="674" x2="306.03553390593" y2="670.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="235" y1="116" x2="238.53553390593" y2="119.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="235" y1="116" x2="238.53553390593" y2="112.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="285" y1="487" x2="275" y2="487" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="242" y1="38" x2="232" y2="38" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="275" y1="487" x2="242" y2="38" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="277.5" y1="487" x2="281.03553390593" y2="490.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="277.5" y1="487" x2="281.03553390593" y2="483.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="237" y1="38" x2="240.53553390593" y2="41.535533905933" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="237" y1="38" x2="240.53553390593" y2="34.464466094067" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="285" y1="527" x2="275" y2="527" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="238" y1="238" x2="228" y2="238" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="275" y1="527" x2="238" y2="238" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="277.5" y1="527" x2="281.03553390593" y2="530.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="277.5" y1="527" x2="281.03553390593" y2="523.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="233" y1="238" x2="236.53553390593" y2="241.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="233" y1="238" x2="236.53553390593" y2="234.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="305" y1="865" x2="295" y2="865" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="275" y1="447" x2="285" y2="447" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="295" y1="865" x2="275" y2="447" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="297.5" y1="865" x2="301.03553390593" y2="868.53553390593" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="297.5" y1="865" x2="301.03553390593" y2="861.46446609407" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="280" y1="447" x2="276.46446609407" y2="450.53553390593" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="280" y1="447" x2="276.46446609407" y2="443.46446609407" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="305" y1="885" x2="295" y2="885" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="240" y1="116" x2="230" y2="116" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="295" y1="885" x2="240" y2="116" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="297.5" y1="885" x2="301.03553390593" y2="888.53553390593" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="297.5" y1="885" x2="301.03553390593" y2="881.46446609407" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="235" y1="116" x2="238.53553390593" y2="119.53553390593" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="235" y1="116" x2="238.53553390593" y2="112.46446609407" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="285" y1="260" x2="275" y2="260" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="239" y1="359" x2="229" y2="359" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="275" y1="260" x2="239" y2="359" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="277.5" y1="260" x2="281.03553390593" y2="263.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="277.5" y1="260" x2="281.03553390593" y2="256.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="234" y1="359" x2="237.53553390593" y2="362.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="234" y1="359" x2="237.53553390593" y2="355.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="285" y1="300" x2="275" y2="300" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="240" y1="116" x2="230" y2="116" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="275" y1="300" x2="240" y2="116" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="277.5" y1="300" x2="281.03553390593" y2="303.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="277.5" y1="300" x2="281.03553390593" y2="296.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="235" y1="116" x2="238.53553390593" y2="119.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="235" y1="116" x2="238.53553390593" y2="112.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="39" y1="419" x2="29" y2="419" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="32" y1="38" x2="42" y2="38" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="29" y1="419" x2="32" y2="38" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="31.5" y1="419" x2="35.035533905933" y2="422.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="31.5" y1="419" x2="35.035533905933" y2="415.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="37" y1="38" x2="33.464466094067" y2="41.535533905933" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="37" y1="38" x2="33.464466094067" y2="34.464466094067" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="99" y1="544" x2="89" y2="544" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="29" y1="359" x2="39" y2="359" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="89" y1="544" x2="29" y2="359" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="91.5" y1="544" x2="95.035533905933" y2="547.53553390593" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="91.5" y1="544" x2="95.035533905933" y2="540.46446609407" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="34" y1="359" x2="30.464466094067" y2="362.53553390593" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="34" y1="359" x2="30.464466094067" y2="355.46446609407" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="284" y1="57" x2="274" y2="57" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="242" y1="38" x2="232" y2="38" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="274" y1="57" x2="242" y2="38" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="276.5" y1="57" x2="280.03553390593" y2="60.535533905933" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="276.5" y1="57" x2="280.03553390593" y2="53.464466094067" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="237" y1="38" x2="240.53553390593" y2="41.535533905933" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="237" y1="38" x2="240.53553390593" y2="34.464466094067" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="284" y1="77" x2="274" y2="77" style="stroke:#333;stroke-width:1;"/>
+   <line x1="240" y1="116" x2="230" y2="116" style="stroke:#333;stroke-width:1;"/>
+   <line x1="274" y1="77" x2="240" y2="116" style="stroke:#333;stroke-width:1;"/>
+   <line x1="276.5" y1="77" x2="280.03553390593" y2="80.535533905933" style="stroke:#333;stroke-width:2;"/>
+   <line x1="276.5" y1="77" x2="280.03553390593" y2="73.464466094067" style="stroke:#333;stroke-width:2;"/>
+   <line x1="235" y1="116" x2="238.53553390593" y2="119.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="235" y1="116" x2="238.53553390593" y2="112.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <rect width="190" height="20" x="492" y="12" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="497" y="26" style="fill:#fff;" font-family="Arial" font-size="16px"> all_last_cost_ingredients</text>
+   <rect width="190" height="20" x="492" y="32" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="497" y="46" style="fill:black;" font-family="Arial" font-size="16px">iid</text>
+   <rect width="190" height="20" x="492" y="52" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="497" y="66" style="fill:black;" font-family="Arial" font-size="16px">poster_ingredient_id</text>
+   <rect width="190" height="20" x="492" y="72" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="497" y="86" style="fill:black;" font-family="Arial" font-size="16px">poster_limit</text>
+   <rect width="190" height="20" x="492" y="92" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="497" y="106" style="fill:black;" font-family="Arial" font-size="16px">sid</text>
+   <rect width="190" height="20" x="492" y="112" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="497" y="126" style="fill:black;" font-family="Arial" font-size="16px">poster_storage_id</text>
+   <rect width="190" height="20" x="492" y="132" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="497" y="146" style="fill:black;" font-family="Arial" font-size="16px">suid</text>
+   <rect width="190" height="20" x="492" y="152" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="497" y="166" style="fill:black;" font-family="Arial" font-size="16px">poster_supplier_id</text>
+   <rect width="190" height="20" x="492" y="172" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="497" y="186" style="fill:black;" font-family="Arial" font-size="16px">amount</text>
+   <rect width="190" height="20" x="492" y="192" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="497" y="206" style="fill:black;" font-family="Arial" font-size="16px">cost</text>
+   <rect width="190" height="20" x="492" y="212" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="497" y="226" style="fill:black;" font-family="Arial" font-size="16px">supply_date</text>
+   <rect width="190" height="20" x="492" y="232" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="497" y="246" style="fill:black;" font-family="Arial" font-size="16px">supply_id</text>
+   <rect width="190" height="20" x="1022" y="780" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="1027" y="794" style="fill:#fff;" font-family="Arial" font-size="16px"> all_st2su2i_view</text>
+   <rect width="190" height="20" x="1022" y="800" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1027" y="814" style="fill:black;" font-family="Arial" font-size="16px">iid</text>
+   <rect width="190" height="20" x="1022" y="820" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1027" y="834" style="fill:black;" font-family="Arial" font-size="16px">poster_ingredient_id</text>
+   <rect width="190" height="20" x="1022" y="840" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1027" y="854" style="fill:black;" font-family="Arial" font-size="16px">sid</text>
+   <rect width="190" height="20" x="1022" y="860" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1027" y="874" style="fill:black;" font-family="Arial" font-size="16px">poster_storage_id</text>
+   <rect width="190" height="20" x="786" y="627" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="791" y="641" style="fill:#fff;" font-family="Arial" font-size="16px"> for_leftovers</text>
+   <rect width="190" height="20" x="786" y="647" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="661" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="190" height="20" x="786" y="667" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="681" style="fill:black;" font-family="Arial" font-size="16px">min_left</text>
+   <rect width="190" height="20" x="786" y="687" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="701" style="fill:black;" font-family="Arial" font-size="16px">min_left_info</text>
+   <rect width="190" height="20" x="786" y="707" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="721" style="fill:black;" font-family="Arial" font-size="16px">poster_min_left</text>
+   <rect width="190" height="20" x="786" y="727" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="741" style="fill:black;" font-family="Arial" font-size="16px">s2i_min_left</text>
+   <rect width="190" height="20" x="786" y="747" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="761" style="fill:black;" font-family="Arial" font-size="16px">max_left</text>
+   <rect width="190" height="20" x="786" y="767" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="781" style="fill:black;" font-family="Arial" font-size="16px">max_left_info</text>
+   <rect width="190" height="20" x="786" y="787" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="801" style="fill:black;" font-family="Arial" font-size="16px">cost</text>
+   <rect width="190" height="20" x="786" y="807" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="821" style="fill:black;" font-family="Arial" font-size="16px">cost_info</text>
+   <rect width="190" height="20" x="786" y="827" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="841" style="fill:black;" font-family="Arial" font-size="16px">s2i_cost</text>
+   <rect width="190" height="20" x="786" y="847" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="861" style="fill:black;" font-family="Arial" font-size="16px">poster_cost</text>
+   <rect width="190" height="20" x="786" y="867" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="881" style="fill:black;" font-family="Arial" font-size="16px">amount</text>
+   <rect width="190" height="20" x="786" y="887" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="901" style="fill:black;" font-family="Arial" font-size="16px">amount_info</text>
+   <rect width="190" height="20" x="786" y="907" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="921" style="fill:black;" font-family="Arial" font-size="16px">iid</text>
+   <rect width="190" height="20" x="786" y="927" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="941" style="fill:black;" font-family="Arial" font-size="16px">poster_ingredient_id</text>
+   <rect width="190" height="20" x="786" y="947" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="961" style="fill:black;" font-family="Arial" font-size="16px">sid</text>
+   <rect width="190" height="20" x="786" y="967" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="981" style="fill:black;" font-family="Arial" font-size="16px">poster_storage_id</text>
+   <rect width="190" height="20" x="786" y="987" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="1001" style="fill:black;" font-family="Arial" font-size="16px">suid</text>
+   <rect width="190" height="20" x="786" y="1007" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="791" y="1021" style="fill:black;" font-family="Arial" font-size="16px">suid_info</text>
+   <rect width="190" height="20" x="788" y="1075" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="793" y="1089" style="fill:#fff;" font-family="Arial" font-size="16px"> for_orders</text>
+   <rect width="190" height="20" x="788" y="1095" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="1109" style="fill:black;" font-family="Arial" font-size="16px">suid</text>
+   <rect width="190" height="20" x="788" y="1115" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="1129" style="fill:black;" font-family="Arial" font-size="16px">sid</text>
+   <rect width="190" height="20" x="788" y="1135" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="1149" style="fill:black;" font-family="Arial" font-size="16px">supplier_poster_id</text>
+   <rect width="190" height="20" x="788" y="1155" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="1169" style="fill:black;" font-family="Arial" font-size="16px">storage_poster_id</text>
+   <rect width="190" height="20" x="788" y="1175" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="1189" style="fill:black;" font-family="Arial" font-size="16px">num</text>
+   <rect width="190" height="20" x="788" y="1195" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="1209" style="fill:black;" font-family="Arial" font-size="16px">date</text>
+   <rect width="190" height="20" x="788" y="1215" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="1229" style="fill:black;" font-family="Arial" font-size="16px">count</text>
+   <rect width="190" height="20" x="788" y="1235" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="1249" style="fill:black;" font-family="Arial" font-size="16px">summ</text>
+   <rect width="190" height="20" x="833" y="15" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="838" y="29" style="fill:#fff;" font-family="Arial" font-size="16px"> for_shablons</text>
+   <rect width="190" height="20" x="833" y="35" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="838" y="49" style="fill:black;" font-family="Arial" font-size="16px">storage_id</text>
+   <rect width="190" height="20" x="833" y="55" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="838" y="69" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="190" height="20" x="833" y="75" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="838" y="89" style="fill:black;" font-family="Arial" font-size="16px">name</text>
+   <rect width="190" height="20" x="833" y="95" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="838" y="109" style="fill:black;" font-family="Arial" font-size="16px">active</text>
+   <rect width="190" height="20" x="833" y="115" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="838" y="129" style="fill:black;" font-family="Arial" font-size="16px">time</text>
+   <rect width="190" height="20" x="833" y="135" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="838" y="149" style="fill:black;" font-family="Arial" font-size="16px">type</text>
+   <rect width="190" height="20" x="833" y="155" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="838" y="169" style="fill:black;" font-family="Arial" font-size="16px">day</text>
+   <rect width="190" height="20" x="1029" y="16" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="30" style="fill:#fff;" font-family="Arial" font-size="16px"> for_shablon_data</text>
+   <rect width="190" height="20" x="1029" y="36" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="50" style="fill:black;" font-family="Arial" font-size="16px">shid</text>
+   <rect width="190" height="20" x="1029" y="56" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="70" style="fill:black;" font-family="Arial" font-size="16px">sh_name</text>
+   <rect width="190" height="20" x="1029" y="76" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="90" style="fill:black;" font-family="Arial" font-size="16px">active</text>
+   <rect width="190" height="20" x="1029" y="96" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="110" style="fill:black;" font-family="Arial" font-size="16px">sid</text>
+   <rect width="190" height="20" x="1029" y="116" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="130" style="fill:black;" font-family="Arial" font-size="16px">iid</text>
+   <rect width="190" height="20" x="1029" y="136" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="150" style="fill:black;" font-family="Arial" font-size="16px">suid</text>
+   <rect width="190" height="20" x="1029" y="156" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="170" style="fill:black;" font-family="Arial" font-size="16px">sh2i_suid</text>
+   <rect width="190" height="20" x="1029" y="176" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="190" style="fill:black;" font-family="Arial" font-size="16px">s2i_suid</text>
+   <rect width="190" height="20" x="1029" y="196" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="210" style="fill:black;" font-family="Arial" font-size="16px">poster_suid</text>
+   <rect width="190" height="20" x="1029" y="216" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="230" style="fill:black;" font-family="Arial" font-size="16px">supplier_info</text>
+   <rect width="190" height="20" x="1029" y="236" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="250" style="fill:black;" font-family="Arial" font-size="16px">poster_supplier_id</text>
+   <rect width="190" height="20" x="1029" y="256" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="270" style="fill:black;" font-family="Arial" font-size="16px">poster_storage_id</text>
+   <rect width="190" height="20" x="1029" y="276" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="290" style="fill:black;" font-family="Arial" font-size="16px">poster_ingredient_id</text>
+   <rect width="190" height="20" x="1029" y="296" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="310" style="fill:black;" font-family="Arial" font-size="16px">supply_id</text>
+   <rect width="190" height="20" x="1029" y="316" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="330" style="fill:black;" font-family="Arial" font-size="16px">supply_date</text>
+   <rect width="190" height="20" x="1029" y="336" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="350" style="fill:black;" font-family="Arial" font-size="16px">min_left</text>
+   <rect width="190" height="20" x="1029" y="356" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="370" style="fill:black;" font-family="Arial" font-size="16px">min_left_info</text>
+   <rect width="190" height="20" x="1029" y="376" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="390" style="fill:black;" font-family="Arial" font-size="16px">sh2i_min_left</text>
+   <rect width="190" height="20" x="1029" y="396" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="410" style="fill:black;" font-family="Arial" font-size="16px">s2i_min_left</text>
+   <rect width="190" height="20" x="1029" y="416" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="430" style="fill:black;" font-family="Arial" font-size="16px">poster_min_left</text>
+   <rect width="190" height="20" x="1029" y="436" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="450" style="fill:black;" font-family="Arial" font-size="16px">max_left</text>
+   <rect width="190" height="20" x="1029" y="456" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="470" style="fill:black;" font-family="Arial" font-size="16px">max_left_info</text>
+   <rect width="190" height="20" x="1029" y="476" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="490" style="fill:black;" font-family="Arial" font-size="16px">sh2i_max_left</text>
+   <rect width="190" height="20" x="1029" y="496" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="510" style="fill:black;" font-family="Arial" font-size="16px">s2i_max_left</text>
+   <rect width="190" height="20" x="1029" y="516" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="530" style="fill:black;" font-family="Arial" font-size="16px">cost</text>
+   <rect width="190" height="20" x="1029" y="536" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="550" style="fill:black;" font-family="Arial" font-size="16px">cost_info</text>
+   <rect width="190" height="20" x="1029" y="556" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="570" style="fill:black;" font-family="Arial" font-size="16px">sh2i_cost</text>
+   <rect width="190" height="20" x="1029" y="576" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="590" style="fill:black;" font-family="Arial" font-size="16px">s2i_cost</text>
+   <rect width="190" height="20" x="1029" y="596" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="610" style="fill:black;" font-family="Arial" font-size="16px">poster_cost</text>
+   <rect width="190" height="20" x="1029" y="616" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="630" style="fill:black;" font-family="Arial" font-size="16px">amount</text>
+   <rect width="190" height="20" x="1029" y="636" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="650" style="fill:black;" font-family="Arial" font-size="16px">amount_info</text>
+   <rect width="190" height="20" x="1029" y="656" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="670" style="fill:black;" font-family="Arial" font-size="16px">sh2i_amount</text>
+   <rect width="190" height="20" x="1029" y="676" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1034" y="690" style="fill:black;" font-family="Arial" font-size="16px">s2i_amount</text>
+   <rect width="190" height="20" x="788" y="196" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="793" y="210" style="fill:#fff;" font-family="Arial" font-size="16px"> for_shablon_ingredients</text>
+   <rect width="190" height="20" x="788" y="216" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="230" style="fill:black;" font-family="Arial" font-size="16px">shid</text>
+   <rect width="190" height="20" x="788" y="236" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="250" style="fill:black;" font-family="Arial" font-size="16px">sid</text>
+   <rect width="190" height="20" x="788" y="256" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="270" style="fill:black;" font-family="Arial" font-size="16px">suid</text>
+   <rect width="190" height="20" x="788" y="276" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="290" style="fill:black;" font-family="Arial" font-size="16px">iid</text>
+   <rect width="190" height="20" x="788" y="296" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="310" style="fill:black;" font-family="Arial" font-size="16px">sh_name</text>
+   <rect width="190" height="20" x="788" y="316" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="330" style="fill:black;" font-family="Arial" font-size="16px">active</text>
+   <rect width="190" height="20" x="788" y="336" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="350" style="fill:black;" font-family="Arial" font-size="16px">min_left</text>
+   <rect width="190" height="20" x="788" y="356" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="370" style="fill:black;" font-family="Arial" font-size="16px">max_left</text>
+   <rect width="190" height="20" x="788" y="376" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="390" style="fill:black;" font-family="Arial" font-size="16px">amount</text>
+   <rect width="190" height="20" x="788" y="396" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="793" y="410" style="fill:black;" font-family="Arial" font-size="16px">cost</text>
+   <rect width="190" height="20" x="539" y="288" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="544" y="302" style="fill:#fff;" font-family="Arial" font-size="16px"> for_storage_defaults</text>
+   <rect width="190" height="20" x="539" y="308" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="322" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="190" height="20" x="539" y="328" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="342" style="fill:black;" font-family="Arial" font-size="16px">min_left</text>
+   <rect width="190" height="20" x="539" y="348" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="362" style="fill:black;" font-family="Arial" font-size="16px">min_left_info</text>
+   <rect width="190" height="20" x="539" y="368" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="382" style="fill:black;" font-family="Arial" font-size="16px">poster_min_left</text>
+   <rect width="190" height="20" x="539" y="388" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="402" style="fill:black;" font-family="Arial" font-size="16px">s2i_min_left</text>
+   <rect width="190" height="20" x="539" y="408" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="422" style="fill:black;" font-family="Arial" font-size="16px">max_left</text>
+   <rect width="190" height="20" x="539" y="428" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="442" style="fill:black;" font-family="Arial" font-size="16px">max_left_info</text>
+   <rect width="190" height="20" x="539" y="448" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="462" style="fill:black;" font-family="Arial" font-size="16px">cost</text>
+   <rect width="190" height="20" x="539" y="468" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="482" style="fill:black;" font-family="Arial" font-size="16px">cost_info</text>
+   <rect width="190" height="20" x="539" y="488" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="502" style="fill:black;" font-family="Arial" font-size="16px">s2i_cost</text>
+   <rect width="190" height="20" x="539" y="508" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="522" style="fill:black;" font-family="Arial" font-size="16px">poster_cost</text>
+   <rect width="190" height="20" x="539" y="528" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="542" style="fill:black;" font-family="Arial" font-size="16px">supply_id</text>
+   <rect width="190" height="20" x="539" y="548" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="562" style="fill:black;" font-family="Arial" font-size="16px">supply_date</text>
+   <rect width="190" height="20" x="539" y="568" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="582" style="fill:black;" font-family="Arial" font-size="16px">iid</text>
+   <rect width="190" height="20" x="539" y="588" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="602" style="fill:black;" font-family="Arial" font-size="16px">poster_ingredient_id</text>
+   <rect width="190" height="20" x="539" y="608" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="622" style="fill:black;" font-family="Arial" font-size="16px">sid</text>
+   <rect width="190" height="20" x="539" y="628" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="642" style="fill:black;" font-family="Arial" font-size="16px">poster_storage_id</text>
+   <rect width="190" height="20" x="539" y="648" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="662" style="fill:black;" font-family="Arial" font-size="16px">shid</text>
+   <rect width="190" height="20" x="539" y="668" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="682" style="fill:black;" font-family="Arial" font-size="16px">sh_name</text>
+   <rect width="190" height="20" x="539" y="688" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="702" style="fill:black;" font-family="Arial" font-size="16px">active</text>
+   <rect width="190" height="20" x="539" y="708" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="722" style="fill:black;" font-family="Arial" font-size="16px">sh2i_min_left</text>
+   <rect width="190" height="20" x="539" y="728" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="742" style="fill:black;" font-family="Arial" font-size="16px">sh2i_max_left</text>
+   <rect width="190" height="20" x="539" y="748" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="762" style="fill:black;" font-family="Arial" font-size="16px">sh2i_amount</text>
+   <rect width="190" height="20" x="539" y="768" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="782" style="fill:black;" font-family="Arial" font-size="16px">sh2i_cost</text>
+   <rect width="190" height="20" x="539" y="788" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="802" style="fill:black;" font-family="Arial" font-size="16px">sh2i_suid</text>
+   <rect width="190" height="20" x="539" y="808" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="822" style="fill:black;" font-family="Arial" font-size="16px">suid</text>
+   <rect width="190" height="20" x="539" y="828" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="842" style="fill:black;" font-family="Arial" font-size="16px">s2i_suid</text>
+   <rect width="190" height="20" x="539" y="848" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="862" style="fill:black;" font-family="Arial" font-size="16px">poster_suid</text>
+   <rect width="190" height="20" x="539" y="868" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="882" style="fill:black;" font-family="Arial" font-size="16px">poster_supplier_id</text>
+   <rect width="190" height="20" x="539" y="888" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="902" style="fill:black;" font-family="Arial" font-size="16px">supplier_info</text>
+   <rect width="190" height="20" x="539" y="908" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="922" style="fill:black;" font-family="Arial" font-size="16px">amount</text>
+   <rect width="190" height="20" x="539" y="928" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="544" y="942" style="fill:black;" font-family="Arial" font-size="16px">amount_info</text>
+   <rect width="190" height="20" x="40" y="86" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="45" y="100" style="fill:#fff;" font-family="Arial" font-size="16px"> ingredients</text>
+   <rect width="190" height="20" x="40" y="106" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="45" y="120" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="190" height="20" x="40" y="126" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="45" y="140" style="fill:black;" font-family="Arial" font-size="16px">poster_id</text>
+   <rect width="190" height="20" x="40" y="146" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="45" y="160" style="fill:black;" font-family="Arial" font-size="16px">poster_limit</text>
+   <rect width="190" height="20" x="40" y="166" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="45" y="180" style="fill:black;" font-family="Arial" font-size="16px">poster_cost</text>
+   <rect width="190" height="20" x="538" y="1027" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="543" y="1041" style="fill:#fff;" font-family="Arial" font-size="16px"> last_cost_ingredients</text>
+   <rect width="190" height="20" x="538" y="1047" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="543" y="1061" style="fill:black;" font-family="Arial" font-size="16px">supply_id</text>
+   <rect width="190" height="20" x="538" y="1067" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="543" y="1081" style="fill:black;" font-family="Arial" font-size="16px">date</text>
+   <rect width="190" height="20" x="538" y="1087" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="543" y="1101" style="fill:black;" font-family="Arial" font-size="16px">sid</text>
+   <rect width="190" height="20" x="538" y="1107" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="543" y="1121" style="fill:black;" font-family="Arial" font-size="16px">suid</text>
+   <rect width="190" height="20" x="538" y="1127" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="543" y="1141" style="fill:black;" font-family="Arial" font-size="16px">poster_supplier_id</text>
+   <rect width="190" height="20" x="538" y="1147" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="543" y="1161" style="fill:black;" font-family="Arial" font-size="16px">iid</text>
+   <rect width="190" height="20" x="538" y="1167" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="543" y="1181" style="fill:black;" font-family="Arial" font-size="16px">amount</text>
+   <rect width="190" height="20" x="538" y="1187" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="543" y="1201" style="fill:black;" font-family="Arial" font-size="16px">cost</text>
+   <rect width="190" height="20" x="787" y="458" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="792" y="472" style="fill:#fff;" font-family="Arial" font-size="16px"> last_orders</text>
+   <rect width="190" height="20" x="787" y="478" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="792" y="492" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="190" height="20" x="787" y="498" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="792" y="512" style="fill:black;" font-family="Arial" font-size="16px">num</text>
+   <rect width="190" height="20" x="787" y="518" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="792" y="532" style="fill:black;" font-family="Arial" font-size="16px">suid</text>
+   <rect width="190" height="20" x="787" y="538" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="792" y="552" style="fill:black;" font-family="Arial" font-size="16px">sid</text>
+   <rect width="190" height="20" x="787" y="558" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="792" y="572" style="fill:black;" font-family="Arial" font-size="16px">date</text>
+   <rect width="190" height="20" x="787" y="578" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="792" y="592" style="fill:black;" font-family="Arial" font-size="16px">shid</text>
+   <rect width="190" height="20" x="310" y="604" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="315" y="618" style="fill:#fff;" font-family="Arial" font-size="16px"> orders_ingredients</text>
+   <rect width="190" height="20" x="310" y="624" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="315" y="638" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="190" height="20" x="310" y="644" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="315" y="658" style="fill:black;" font-family="Arial" font-size="16px">order_id</text>
+   <rect width="190" height="20" x="310" y="664" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="315" y="678" style="fill:black;" font-family="Arial" font-size="16px">ingredient_id</text>
+   <rect width="190" height="20" x="310" y="684" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="315" y="698" style="fill:black;" font-family="Arial" font-size="16px">ingredient_name</text>
+   <rect width="190" height="20" x="310" y="704" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="315" y="718" style="fill:black;" font-family="Arial" font-size="16px">amount</text>
+   <rect width="190" height="20" x="310" y="724" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="315" y="738" style="fill:black;" font-family="Arial" font-size="16px">cost</text>
+   <rect width="190" height="20" x="285" y="417" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="290" y="431" style="fill:#fff;" font-family="Arial" font-size="16px"> poster_supplies</text>
+   <rect width="190" height="20" x="285" y="437" style="fill:#aea;stroke:black;"/>
+   <text width="190" height="20" x="290" y="451" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="190" height="20" x="285" y="457" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="290" y="471" style="fill:black;" font-family="Arial" font-size="16px">poster_id</text>
+   <rect width="190" height="20" x="285" y="477" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="290" y="491" style="fill:black;" font-family="Arial" font-size="16px">storage_id</text>
+   <rect width="190" height="20" x="285" y="497" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="290" y="511" style="fill:black;" font-family="Arial" font-size="16px">poster_storage_id</text>
+   <rect width="190" height="20" x="285" y="517" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="290" y="531" style="fill:black;" font-family="Arial" font-size="16px">supplier_id</text>
+   <rect width="190" height="20" x="285" y="537" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="290" y="551" style="fill:black;" font-family="Arial" font-size="16px">poster_supplier_id</text>
+   <rect width="190" height="20" x="285" y="557" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="290" y="571" style="fill:black;" font-family="Arial" font-size="16px">date</text>
+   <rect width="190" height="20" x="305" y="815" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="310" y="829" style="fill:#fff;" font-family="Arial" font-size="16px"> poster_supply_ingredients</text>
+   <rect width="190" height="20" x="305" y="835" style="fill:#aea;stroke:black;"/>
+   <text width="190" height="20" x="310" y="849" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="190" height="20" x="305" y="855" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="310" y="869" style="fill:black;" font-family="Arial" font-size="16px">supply_id</text>
+   <rect width="190" height="20" x="305" y="875" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="310" y="889" style="fill:black;" font-family="Arial" font-size="16px">ingredient_id</text>
+   <rect width="190" height="20" x="305" y="895" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="310" y="909" style="fill:black;" font-family="Arial" font-size="16px">poster_ingredient_id</text>
+   <rect width="190" height="20" x="305" y="915" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="310" y="929" style="fill:black;" font-family="Arial" font-size="16px">amount</text>
+   <rect width="190" height="20" x="305" y="935" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="310" y="949" style="fill:black;" font-family="Arial" font-size="16px">cost</text>
+   <rect width="190" height="20" x="285" y="210" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="290" y="224" style="fill:#fff;" font-family="Arial" font-size="16px"> sh2i_add</text>
+   <rect width="190" height="20" x="285" y="230" style="fill:#aea;stroke:black;"/>
+   <text width="190" height="20" x="290" y="244" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="190" height="20" x="285" y="250" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="290" y="264" style="fill:black;" font-family="Arial" font-size="16px">shablon_id</text>
+   <rect width="190" height="20" x="285" y="270" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="290" y="284" style="fill:black;" font-family="Arial" font-size="16px">supplier_id</text>
+   <rect width="190" height="20" x="285" y="290" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="290" y="304" style="fill:black;" font-family="Arial" font-size="16px">ingredient_id</text>
+   <rect width="190" height="20" x="285" y="310" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="290" y="324" style="fill:black;" font-family="Arial" font-size="16px">min_left</text>
+   <rect width="190" height="20" x="285" y="330" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="290" y="344" style="fill:black;" font-family="Arial" font-size="16px">max_left</text>
+   <rect width="190" height="20" x="285" y="350" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="290" y="364" style="fill:black;" font-family="Arial" font-size="16px">amount</text>
+   <rect width="190" height="20" x="285" y="370" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="290" y="384" style="fill:black;" font-family="Arial" font-size="16px">cost</text>
+   <rect width="190" height="20" x="39" y="329" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="44" y="343" style="fill:#fff;" font-family="Arial" font-size="16px"> shablons</text>
+   <rect width="190" height="20" x="39" y="349" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="44" y="363" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="190" height="20" x="39" y="369" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="44" y="383" style="fill:black;" font-family="Arial" font-size="16px">time</text>
+   <rect width="190" height="20" x="39" y="389" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="44" y="403" style="fill:black;" font-family="Arial" font-size="16px">type_days</text>
+   <rect width="190" height="20" x="39" y="409" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="44" y="423" style="fill:black;" font-family="Arial" font-size="16px">storage_id</text>
+   <rect width="190" height="20" x="39" y="429" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="44" y="443" style="fill:black;" font-family="Arial" font-size="16px">name</text>
+   <rect width="190" height="20" x="39" y="449" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="44" y="463" style="fill:black;" font-family="Arial" font-size="16px">active</text>
+   <rect width="190" height="20" x="99" y="494" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="104" y="508" style="fill:#fff;" font-family="Arial" font-size="16px"> shedulers</text>
+   <rect width="190" height="20" x="99" y="514" style="fill:#aea;stroke:black;"/>
+   <text width="190" height="20" x="104" y="528" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="190" height="20" x="99" y="534" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="104" y="548" style="fill:black;" font-family="Arial" font-size="16px">shablon_id</text>
+   <rect width="190" height="20" x="99" y="554" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="104" y="568" style="fill:black;" font-family="Arial" font-size="16px">day</text>
+   <rect width="190" height="20" x="284" y="7" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="289" y="21" style="fill:#fff;" font-family="Arial" font-size="16px"> st2i_add</text>
+   <rect width="190" height="20" x="284" y="27" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="289" y="41" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="190" height="20" x="284" y="47" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="289" y="61" style="fill:black;" font-family="Arial" font-size="16px">storage_id</text>
+   <rect width="190" height="20" x="284" y="67" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="289" y="81" style="fill:black;" font-family="Arial" font-size="16px">ingredient_id</text>
+   <rect width="190" height="20" x="284" y="87" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="289" y="101" style="fill:black;" font-family="Arial" font-size="16px">supplier_id</text>
+   <rect width="190" height="20" x="284" y="107" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="289" y="121" style="fill:black;" font-family="Arial" font-size="16px">min_left</text>
+   <rect width="190" height="20" x="284" y="127" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="289" y="141" style="fill:black;" font-family="Arial" font-size="16px">max_left</text>
+   <rect width="190" height="20" x="284" y="147" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="289" y="161" style="fill:black;" font-family="Arial" font-size="16px">cost</text>
+   <rect width="190" height="20" x="284" y="167" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="289" y="181" style="fill:black;" font-family="Arial" font-size="16px">amount</text>
+   <rect width="190" height="20" x="42" y="8" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="47" y="22" style="fill:#fff;" font-family="Arial" font-size="16px"> storages</text>
+   <rect width="190" height="20" x="42" y="28" style="fill:#aea;stroke:black;"/>
+   <text width="190" height="20" x="47" y="42" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="190" height="20" x="42" y="48" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="47" y="62" style="fill:black;" font-family="Arial" font-size="16px">poster_id</text>
+   <rect width="190" height="20" x="41" y="593" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="46" y="607" style="fill:#fff;" font-family="Arial" font-size="16px"> storage_orders</text>
+   <rect width="190" height="20" x="41" y="613" style="fill:#aea;stroke:black;"/>
+   <text width="190" height="20" x="46" y="627" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="190" height="20" x="41" y="633" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="46" y="647" style="fill:black;" font-family="Arial" font-size="16px">firm_name</text>
+   <rect width="190" height="20" x="41" y="653" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="46" y="667" style="fill:black;" font-family="Arial" font-size="16px">supplier_id</text>
+   <rect width="190" height="20" x="41" y="673" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="46" y="687" style="fill:black;" font-family="Arial" font-size="16px">supplier_poster_id</text>
+   <rect width="190" height="20" x="41" y="693" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="46" y="707" style="fill:black;" font-family="Arial" font-size="16px">supplier_name</text>
+   <rect width="190" height="20" x="41" y="713" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="46" y="727" style="fill:black;" font-family="Arial" font-size="16px">supplier_address</text>
+   <rect width="190" height="20" x="41" y="733" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="46" y="747" style="fill:black;" font-family="Arial" font-size="16px">supplier_phone</text>
+   <rect width="190" height="20" x="41" y="753" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="46" y="767" style="fill:black;" font-family="Arial" font-size="16px">supplier_type_delivery</text>
+   <rect width="190" height="20" x="41" y="773" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="46" y="787" style="fill:black;" font-family="Arial" font-size="16px">supplier_address_delivery</text>
+   <rect width="190" height="20" x="41" y="793" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="46" y="807" style="fill:black;" font-family="Arial" font-size="16px">storage_id</text>
+   <rect width="190" height="20" x="41" y="813" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="46" y="827" style="fill:black;" font-family="Arial" font-size="16px">storage_poster_id</text>
+   <rect width="190" height="20" x="41" y="833" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="46" y="847" style="fill:black;" font-family="Arial" font-size="16px">storage_name</text>
+   <rect width="190" height="20" x="41" y="853" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="46" y="867" style="fill:black;" font-family="Arial" font-size="16px">storage_address</text>
+   <rect width="190" height="20" x="41" y="873" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="46" y="887" style="fill:black;" font-family="Arial" font-size="16px">shablon_id</text>
+   <rect width="190" height="20" x="41" y="893" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="46" y="907" style="fill:black;" font-family="Arial" font-size="16px">num</text>
+   <rect width="190" height="20" x="41" y="913" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="46" y="927" style="fill:black;" font-family="Arial" font-size="16px">date</text>
+   <rect width="190" height="20" x="38" y="208" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="43" y="222" style="fill:#fff;" font-family="Arial" font-size="16px"> suppliers</text>
+   <rect width="190" height="20" x="38" y="228" style="fill:#aea;stroke:black;"/>
+   <text width="190" height="20" x="43" y="242" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="190" height="20" x="38" y="248" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="43" y="262" style="fill:black;" font-family="Arial" font-size="16px">poster_id</text>
+   <rect width="190" height="20" x="38" y="268" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="43" y="282" style="fill:black;" font-family="Arial" font-size="16px">address_delivery_info</text>
+   <rect width="190" height="20" x="38" y="288" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="43" y="302" style="fill:black;" font-family="Arial" font-size="16px">type_delivery_info</text>
+   <rect width="190" height="20" x="1020" y="907" style="fill:#007;stroke:black;"/>
+   <text width="190" height="20" x="1025" y="921" style="fill:#fff;" font-family="Arial" font-size="16px"> supply_ingredients_view</text>
+   <rect width="190" height="20" x="1020" y="927" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1025" y="941" style="fill:black;" font-family="Arial" font-size="16px">supply_id</text>
+   <rect width="190" height="20" x="1020" y="947" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1025" y="961" style="fill:black;" font-family="Arial" font-size="16px">date</text>
+   <rect width="190" height="20" x="1020" y="967" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1025" y="981" style="fill:black;" font-family="Arial" font-size="16px">suid</text>
+   <rect width="190" height="20" x="1020" y="987" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1025" y="1001" style="fill:black;" font-family="Arial" font-size="16px">sid</text>
+   <rect width="190" height="20" x="1020" y="1007" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1025" y="1021" style="fill:black;" font-family="Arial" font-size="16px">poster_supplier_id</text>
+   <rect width="190" height="20" x="1020" y="1027" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1025" y="1041" style="fill:black;" font-family="Arial" font-size="16px">iid</text>
+   <rect width="190" height="20" x="1020" y="1047" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1025" y="1061" style="fill:black;" font-family="Arial" font-size="16px">amount</text>
+   <rect width="190" height="20" x="1020" y="1067" style="fill:none;stroke:black;"/>
+   <text width="190" height="20" x="1025" y="1081" style="fill:black;" font-family="Arial" font-size="16px">cost</text>
+</svg>

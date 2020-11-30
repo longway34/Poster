@@ -58,11 +58,11 @@ app.all('*', function (req, res, next) {
   }
 });
 
+app.use('/phpmyadmin', myAdminRoute);
 app.use('/', indexRouter);
 app.use(express.static('public'));
 app.use(express.static('public/client'));
 
-app.use('/phpmyadmin', myAdminRoute);
 // app.use('/login', loginRouter);
 app.use('/users', usersRouter);
 

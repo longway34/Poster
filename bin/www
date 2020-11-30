@@ -10,6 +10,15 @@ var http = require('http');
 var https = require('https');
 var fs = require('fs');
 
+console.log = (args) => {
+  if(process.env.NODE_ENV && process.env.NODE_ENV != 'production'){
+    console.info(args);
+  }
+}
+
+console.log("I am working on PWD: "+process.env.PWD);
+console.log("NODE_ENV: "+process.env.NODE_ENV);
+
 /**
  * Get port from environment and store in Express.
  */
@@ -57,7 +66,7 @@ var serverHttps = https.createServer(httpsOptions, app);
 
 serverHttps.listen(portHttps,()=>{
   // let url = 'https://longway34.ru/viber';
-  console.log(`server https listering on port ${portHttps}`);
+  console.info(`server https listering on port ${portHttps}`);
   // bot.setWebhook(url).then((res)=>{
   //   console.log(`viber bot webhook ok... Listen on ${url}...`);
   // }).catch(err => console.log('Error', err));
