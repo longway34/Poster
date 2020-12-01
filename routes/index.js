@@ -41,7 +41,11 @@ router.get('/', function(req, res, next) {
 //            res.render('index', { title: 'Express' });
     } else {
             // request was via http, so redirect to https
-            res.redirect('https://' + req.headers.host + req.url);
+            let hs = req.headers.host.split(':');
+            let host = hs[0]; 
+            let port = '8443';
+            let newUrl = `https://${host}:${port}${req.url}`;
+            res.redirect(newUrl);
     }
   // } else {
   //   // res.render('login', { title: 'Представьтесь пожалуйста' })

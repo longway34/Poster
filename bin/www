@@ -26,10 +26,10 @@ console.log("NODE_ENV: "+process.env.NODE_ENV);
 // const bot = require('../routes/viber_bot');
 
 // var port = normalizePort(process.env.PORT || '3001');
-var portHttp = normalizePort(process.env.PORT || '80');
+var portHttp = normalizePort(/*process.env.PORT ||*/ '8080');
 // var portS = normalizePort(process.env.PORT || '3002');
-var portHttps = normalizePort(process.env.PORT || '443');
-var port8080 = normalizePort(process.env.PORT || '8080');
+var portHttps = normalizePort(/*process.env.PORT ||*/ '8443');
+// var port8080 = normalizePort(process.env.PORT || '8080');
 // app.set('port', port);
 
 const Path = require('path');
@@ -64,7 +64,7 @@ var serverHttps = https.createServer(httpsOptions, app);
 // server8080.on('error', onError);
 // server8080.on('listening', onListening8080);
 
-serverHttps.listen(portHttps,()=>{
+serverHttps.listen(portHttps,'0.0.0.0',()=>{
   // let url = 'https://longway34.ru/viber';
   console.info(`server https listering on port ${portHttps}`);
   // bot.setWebhook(url).then((res)=>{
@@ -83,7 +83,7 @@ serverHttps.on('listening', onListeningS);
 // });
 
 
-serverHttp.listen(portHttp, () => { console.log(`server http listering on port ${portHttp}`)});
+serverHttp.listen(portHttp, '0.0.0.0', () => { console.log(`server http listering on port ${portHttp}`)});
 serverHttp.on('error', onError);
 serverHttp.on('listening', onListening);
 

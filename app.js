@@ -60,6 +60,7 @@ app.all('*', function (req, res, next) {
 
 app.use('/phpmyadmin', myAdminRoute);
 app.use('/', indexRouter);
+app.use('/poster', indexRouter);
 app.use(express.static('public'));
 app.use(express.static('public/client'));
 
