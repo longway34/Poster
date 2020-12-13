@@ -13,15 +13,20 @@
 * минимальные и/или желательные остатки продуктов и инградиентов на каждом складе; 
 * последние и/или согласованные с поставщиком объемы и цены заказываемых товаров и инградиентов.
 * схема структуры БД представлена на [cheme_db.svg](https://raw.githubusercontent.com/longway34/Poster_auto_suppliers_server/master/cheme_db.svg)
+
+
+![Схема БД](https://raw.githubusercontent.com/longway34/Poster_auto_suppliers_server/master/cheme_db.svg)
+
+
 2. Формирование и доставку заявок согласно расписанию и/или по команде пользователя.
 3. Формирование страниц администрирования, формироваия запросов к БД проекта и БД "Poster" посредством [API сервиса](https://dev.joinposter.com/docs/v3/start/index) и ручного формирования заказов.
 4. Накопление и просмотр истории заказов поставщикам.
 
 ## Используемые программные продукты и службы:
 
-* MySQL Ver 14.14 Distrib 5.7.32, for Linux (x86_64)
-* NodeJS v 15.3.0, npm v 7.0.14
-* Express version": 4.17.1 - http/https: сервер 
+* MySQL ver 14.14 Distrib 5.7.32, for Linux (x86_64)
+* Node.js: 15.3.0, npm: 7.0.14
+* Express version: 4.17.1 - http/https: сервер 
 
 ## Разработана в среде Visual Studio Code:
 * Version: 1.51.1 (user setup)
@@ -38,11 +43,21 @@
 
 Обеспечивает пользователю возможность создание/изменение настроек расписания сбора остатков, формирования заказов (заявок), их отправку на заранее определенные адреса поставщиков, просмотр истории заказов (заявок).
 
+![Настройка шаблонов](https://raw.githubusercontent.com/longway34/Poster_auto_suppliers_client/master/public/demo_images/Poster_Shablon.png "Настройка шаблонов")
+Настройка шаблонов
+
+![Настройка поставщиков](https://raw.githubusercontent.com/longway34/Poster_auto_suppliers_client/master/public/demo_images/Poster_Suppliers.png "Настройка поставщиков")
+Настройка поставщиков
+
+![Примеры заказов](https://raw.githubusercontent.com/longway34/Poster_auto_suppliers_client/master/public/demo_images/Poster_Supplies.png "Примеры заказов")
+Примеры заказов
+
 # Используемые программные продукты:
-* NodeJS v.15.3.0, npm v.7.0.14
-* React v.16.14.0
-* Redux v.4.0.5
-* @material-ui/core v.4.11.1
+* Node.js: 15.3.0, npm 7.0.14
+* React: 16.14.0
+* Redux: 4.0.5
+* react-router-dom: 5.2.0
+* @material-ui/core: 4.11.1
 
 # Разработана в среде Visual Studio Code 
 * Version: 1.51.1 (user setup)
