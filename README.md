@@ -17,6 +17,7 @@
 
 ![Схема БД](https://raw.githubusercontent.com/longway34/Poster_auto_suppliers_server/master/cheme_db.svg)
 
+--- 
 
 2. Формирование и доставку заявок согласно расписанию и/или по команде пользователя.
 3. Формирование страниц администрирования, формироваия запросов к БД проекта и БД "Poster" посредством [API сервиса](https://dev.joinposter.com/docs/v3/start/index) и ручного формирования заказов.
@@ -29,37 +30,6 @@
 * Express version: 4.17.1 - http/https: сервер 
 
 ## Разработана в среде Visual Studio Code:
-* Version: 1.51.1 (user setup)
-* Date: 2020-11-10T23:34:32.027Z
-* Electron: 9.3.3
-* Chrome: 83.0.4103.122
-* Node.js: 12.14.1
-* V8: 8.3.110.13-electron.0
-* OS: Windows_NT x64 10.0.18363
-
----
-
-# [Клиентская часть.](https://github.com/longway34/Poster_auto_suppliers_client)
-
-Обеспечивает пользователю возможность создание/изменение настроек расписания сбора остатков, формирования заказов (заявок), их отправку на заранее определенные адреса поставщиков, просмотр истории заказов (заявок).
-
-![Настройка шаблонов](https://raw.githubusercontent.com/longway34/Poster_auto_suppliers_client/master/public/demo_images/Poster_Shablon.png "Настройка шаблонов")
-Настройка шаблонов
-
-![Настройка поставщиков](https://raw.githubusercontent.com/longway34/Poster_auto_suppliers_client/master/public/demo_images/Poster_Suppliers.png "Настройка поставщиков")
-Настройка поставщиков
-
-![Примеры заказов](https://raw.githubusercontent.com/longway34/Poster_auto_suppliers_client/master/public/demo_images/Poster_Supplies.png "Примеры заказов")
-Примеры заказов
-
-# Используемые программные продукты:
-* Node.js: 15.3.0, npm 7.0.14
-* React: 16.14.0
-* Redux: 4.0.5
-* react-router-dom: 5.2.0
-* @material-ui/core: 4.11.1
-
-# Разработана в среде Visual Studio Code 
 * Version: 1.51.1 (user setup)
 * Date: 2020-11-10T23:34:32.027Z
 * Electron: 9.3.3
